@@ -30,6 +30,10 @@ class Solution:
             else:
                 buff[list_[i]] = i
         return list_
+    
+    @staticmethod
+    def remove_duplicates_2(arr: List) -> List[int]:
+        return list(set(arr))
 
 
 if __name__ == "__main__":

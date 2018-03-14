@@ -33,6 +33,8 @@ class Solution:
     
     @staticmethod
     def remove_duplicates_2(arr: List) -> List[int]:
+        #if you want the list returned in sorted order:
+        #return sorted(list(set(arr)))
         return list(set(arr))
 
 

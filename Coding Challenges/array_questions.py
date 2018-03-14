@@ -8,6 +8,10 @@ class Solution:
             if(list_[x] < list_[min_index]):
                 min_index = x
         return min_index
+    
+    @staticmethod
+    def find_min_2(list_: List) -> int:
+        return list_.index(min(list_))
 
     @staticmethod
     def find_contiguous_sum(list_: List) -> int:
